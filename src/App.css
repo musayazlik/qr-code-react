@@ -1,0 +1,117 @@
+#root {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Rubik', sans-serif !important;
+}
+
+
+.qrWrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.qrCardWrapper {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  top: -75px;
+  left: 0;
+  padding: 0 20px;
+
+}
+
+.qrCard {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  background-color: #fff;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  border: 4px solid #ecf0f1;
+}
+
+.qrInput {
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.qrInput input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.qrInput button {
+  width: max-content;
+  height: 40px;
+  display: block;
+  background-color: #e74c3c;
+  border: 2px solid #c0392b;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 600;
+}
+
+.qrCode {
+  margin-top: 32px;
+  background: #fff;
+  padding: 20px;
+  border: 4px solid rgb(30, 30, 30);
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+  box-shadow: 0 8px 0 4px rgb(30, 30, 30), 0 -3px 0 4px rgb(30, 30, 30);
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e74c3c;
+  color: white;
+  padding: 4px 0;
+  width: 100%;
+  font-weight: 400 !important;
+}
+
+footer .icon {
+  margin: 6px 10px 0 10px;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  margin: 0;
+}
